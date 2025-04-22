@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "flowbite";
+
+@theme {
+    /* Color */
+    --color-base: #09090E;
+    --color-base-light: #27272A;
+    /* Font Color */
+    --color-home-font: #A1A1AA;
+    --color-home-blue: #348CFF;
+    /* Font Type */
+    --font-inter: "Inter", sans-serif;
+}
