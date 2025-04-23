@@ -44,5 +44,65 @@
                 </li>
             </ol>
         </div>
+        <!-- Card Bottom -->
+        <div class="max-w-7xl mx-auto my-24">
+            <div class="flex flex-col md:flex-row gap-8">
+                <!-- Our Mission Card -->
+                <div class="bg-zinc-950 rounded-lg shadow-sm flex-1 p-6 outline outline-1 outline-offset-[-1px] outline-zinc-800">
+                    <div class="flex items-start">
+                        <div class="w-9 h-9 bg-sky-500/10 rounded-full flex items-center justify-center mr-4">
+                            <div class="w-5 h-5 relative">
+                                <div class="w-[5px] h-2.5 absolute right-[1.67px] top-[5px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
+                                <div class="w-[5px] h-2.5 absolute left-[1.67px] top-[5px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
+                            </div>
+                        </div>
+                        <h2 class="text-2xl font-semibold font-inter leading-normal">Our Mission</h2>
+                    </div>        
+                    <div class="mt-5 space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-5 h-5 bg-sky-500/5 rounded-full flex items-center justify-center mr-6 mt-1">
+                                <div class="w-3 h-3 relative">
+                                    <div class="w-1.5 h-0 absolute left-[2.5px] top-[6px] outline outline-1 outline-offset-[-0.5px] outline-blue-500"></div>
+                                    <div class="w-1 h-1.5 absolute left-[6px] top-[2.5px] outline outline-1 outline-offset-[-0.5px] outline-blue-500"></div>
+                                </div>
+                            </div>
+                            <p class="text-sm font-normal text-justify font-inter leading-normal">
+                                To create a collaborative environment that encourages learning, innovation,<br/>
+                                and growth in the field of programming.
+                            </p>
+                        </div>      
+                            <div class="flex items-start">
+                                <div class="w-5 h-5 bg-sky-500/5 rounded-full flex items-center justify-center mr-6 mt-1">
+                                    <div class="w-3 h-3 relative">
+                                        <div class="w-1.5 h-0 absolute left-[2.5px] top-[6px] outline outline-1 outline-offset-[-0.5px] outline-blue-500"></div>
+                                        <div class="w-1 h-1.5 absolute left-[6px] top-[2.5px] outline outline-1 outline-offset-[-0.5px] outline-blue-500"></div>
+                                    </div>
+                                </div>
+                                <p class="text-sm font-normal text-justify font-inter leading-normal">
+                                    To provide a supportive environment for learning and growth through collaboration with experienced individuals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>      
+                <!-- Our Vision Card -->
+                <div class="bg-zinc-950 rounded-lg shadow-sm flex-1 p-6 outline outline-1 outline-offset-[-1px] outline-zinc-800">
+                    <div class="flex items-start">
+                        <div class="w-9 h-9 bg-sky-500/10 rounded-full flex items-center justify-center mr-4">
+                            <div class="w-5 h-5 relative">
+                                <div class="w-4 h-2 absolute left-[1.67px] top-[4.17px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
+                                    <div class="w-0 h-[5px] absolute left-[18.33px] top-[8.33px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
+                                    <div class="w-2.5 h-1.5 absolute left-[5px] top-[10.42px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
+                                </div>
+                            </div>
+                        <h2 class="text-2xl font-semibold font-inter leading-normal">Our Vision</h2>
+                    </div>        
+                        <div class="mt-5">
+                            <p class="text-neutral-50 text-base text-justify font-normal font-inter leading-normal">
+                                To encourage every member to actively participate in at least one competitive programming contest or other programming-related competition.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
 </template>
