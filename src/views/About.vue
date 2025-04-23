@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col my-32 justify-center">
+    <div class="flex flex-col mt-32 justify-center">
         <div class="text-5xl font-inter font-bold">
             About UMN Programming Club
         </div>
@@ -103,6 +103,42 @@
                         </div>
                     </div>
                 </div>
+                <!-- Logo Section -->
+                <div class="mt-12">
+                    <div class="text-3xl text-left font-inter font-bold">
+                        Our Logo
+                    </div>
+                    <div class="flex flex-col">
+                        <img src="/public/images/logo-111.svg" class="w-48" alt="">
+                    </div>
+                </div>
+                <!-- Join Us Section -->
+                <div class="max-w-7xl mt-12 bg-zinc-950 rounded-lg outline outline-1 outline-offset-[-1px] outline-zinc-800 py-8 px-4">
+                    <div class="flex flex-col items-center justify-center">
+                        <!-- Heading -->
+                        <h2 class="text-2xl font-bold font-inter leading-loose text-center mb-6">
+                        Ready to Join Us?
+                    </h2>
+                    
+                    <!-- Description -->
+                    <div class="max-w-2xl mx-auto mb-10">
+                        <p class="text-center text-gray-300 text-base font-normal font-inter leading-normal">
+                            Whether you're just starting your programming journey or you're an experienced<br/>
+                            developer, there's a place for you in our community.
+                        </p>
+                    </div>
+                    
+                    <!-- Buttons -->
+                    <div class="flex flex-row gap-4">
+                        <button class="bg-blue-700 rounded-md shadow-[0px_0px_20px_0px_rgba(30,174,219,0.30)] shadow-[0px_0px_10px_0px_rgba(7,54,255,0.50)] px-4 py-2">
+                            <span class=" text-sm font-medium font-inter leading-tight">Join Our Club</span>
+                        </button>
+                        <button class="bg-zinc-950 rounded-md outline outline-1 outline-offset-[-1px] outline-zinc-800 px-4 py-2">
+                            <span class="text-sm font-medium font-inter leading-tight">Contact Us</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
