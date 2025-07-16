@@ -1,12 +1,10 @@
 <template>
     <div class="flex flex-col mt-32 justify-center">
-        <div class="flex flex-col mt-32 justify-center">
-            <div class="text-5xl font-inter font-bold">
-                Our Committee
-            </div>
-            <div class="font-inter text-gray-500 text-lg mt-4">
-                Meet the team behind UMN Programming Club who work tirelessly to create opportunities for our members.
-            </div>
+        <div class="text-5xl mt-12 font-inter font-bold">
+            Our Committee
+        </div>
+        <div class="font-inter text-gray-500 text-lg mt-4">
+            Meet the team behind UMN Programming Club who work tirelessly to create opportunities for our members.
         </div>
 
         <div class="text-2xl font-inter font-bold my-10">
