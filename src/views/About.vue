@@ -1,13 +1,13 @@
 <template>
     <div class="flex flex-col mt-32 justify-center">
-        <div class="text-5xl font-inter font-bold">
+        <div class="text-5xl mt-12 font-inter font-bold">
             About UMN Programming Club
         </div>
         <div class="font-inter text-gray-500 text-lg mt-4">
             Learn more about our mission, history, and the community we've built.
         </div>
 
-        <div class="flex flex-row mx-56 mt-12">
+        <div class="flex flex-row mx-5 md:mx-40 mt-12">
             <div class="flex flex-col gap-8 w-1/2 mx-12">
                 <div class="text-3xl font-inter font-bold">
                     Our Story
@@ -21,26 +21,33 @@
             </div>
             <!-- timeline -->
             <ol class="relative border-s border-gray-200 dark:border-gray-700">                  
-                <li class="mb-10 ms-4">
-                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Application UI code in Tailwind CSS</h3>
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
-                    <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg></a>
+                <div class="text-3xl font-inter font-bold mb-10">
+                    Timeline
+                </div>
+                <li class="mb-8 ms-4 text-start">
+                    <div class="absolute w-3 h-3 bg-sky-500 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-sky-500"></div>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">2012</h3>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Club founded by 3 Computer Science students</p>
                 </li>
-                <li class="mb-10 ms-4">
-                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2022</time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Marketing UI design in Figma</h3>
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                <li class="mb-8 ms-4 text-start">
+                    <div class="absolute w-3 h-3 bg-sky-500 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-sky-500"></div>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">2014</h3>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Started participating in the ICPC Regional Contest</p>
                 </li>
-                <li class="ms-4">
-                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022</time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">E-Commerce UI code in Tailwind CSS</h3>
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                <li class="mb-8 ms-4 text-start">
+                    <div class="absolute w-3 h-3 bg-sky-500 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-sky-500"></div>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">2017</h3>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Started organizing a national competitive programming contest</p>
+                </li>
+                <li class="mb-8 ms-4 text-start">
+                    <div class="absolute w-3 h-3 bg-sky-500 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-sky-500"></div>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">2018</h3>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">A significant increase in membership and partnerships were achieved</p>
+                </li>
+                <li class="mb-8 ms-4 text-start">
+                    <div class="absolute w-3 h-3 bg-sky-500 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-sky-500"></div>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Today</h3>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">60+ active members and we are recognized as a premier tech club in UMN</p>
                 </li>
             </ol>
         </div>
@@ -50,20 +57,18 @@
                 <!-- Our Mission Card -->
                 <div class="bg-zinc-950 rounded-lg shadow-sm flex-1 p-6 outline outline-1 outline-offset-[-1px] outline-zinc-800">
                     <div class="flex items-start">
-                        <div class="w-9 h-9 bg-sky-500/10 rounded-full flex items-center justify-center mr-4">
+                        <div class="w-9 h-9 bg-[#090e26] rounded-full flex items-center justify-center mr-4">
                             <div class="w-5 h-5 relative">
-                                <div class="w-[5px] h-2.5 absolute right-[1.67px] top-[5px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
-                                <div class="w-[5px] h-2.5 absolute left-[1.67px] top-[5px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 8L5 11.6923L9 16M15 8L19 11.6923L15 16" stroke="#4299e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                             </div>
                         </div>
                         <h2 class="text-2xl font-semibold font-inter leading-normal">Our Mission</h2>
-                    </div>        
+                    </div>
                     <div class="mt-5 space-y-6">
                         <div class="flex items-start">
-                            <div class="w-5 h-5 bg-sky-500/5 rounded-full flex items-center justify-center mr-6 mt-1">
+                            <div class="w-5 h-5 bg-[#090e26] rounded-full flex items-center justify-center mr-6 mt-1">
                                 <div class="w-3 h-3 relative">
-                                    <div class="w-1.5 h-0 absolute left-[2.5px] top-[6px] outline outline-1 outline-offset-[-0.5px] outline-blue-500"></div>
-                                    <div class="w-1 h-1.5 absolute left-[6px] top-[2.5px] outline outline-1 outline-offset-[-0.5px] outline-blue-500"></div>
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#4299e1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                 </div>
                             </div>
                             <p class="text-sm font-normal text-justify font-inter leading-normal">
@@ -72,10 +77,9 @@
                             </p>
                         </div>      
                             <div class="flex items-start">
-                                <div class="w-5 h-5 bg-sky-500/5 rounded-full flex items-center justify-center mr-6 mt-1">
+                                <div class="w-5 h-5 bg-[#090e26] rounded-full flex items-center justify-center mr-6 mt-1">
                                     <div class="w-3 h-3 relative">
-                                        <div class="w-1.5 h-0 absolute left-[2.5px] top-[6px] outline outline-1 outline-offset-[-0.5px] outline-blue-500"></div>
-                                        <div class="w-1 h-1.5 absolute left-[6px] top-[2.5px] outline outline-1 outline-offset-[-0.5px] outline-blue-500"></div>
+                                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#4299e1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                     </div>
                                 </div>
                                 <p class="text-sm font-normal text-justify font-inter leading-normal">
@@ -87,22 +91,20 @@
                 <!-- Our Vision Card -->
                 <div class="bg-zinc-950 rounded-lg shadow-sm flex-1 p-6 outline outline-1 outline-offset-[-1px] outline-zinc-800">
                     <div class="flex items-start">
-                        <div class="w-9 h-9 bg-sky-500/10 rounded-full flex items-center justify-center mr-4">
+                        <div class="w-9 h-9 bg-[#090e26] rounded-full flex items-center justify-center mr-4">
                             <div class="w-5 h-5 relative">
-                                <div class="w-4 h-2 absolute left-[1.67px] top-[4.17px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
-                                    <div class="w-0 h-[5px] absolute left-[18.33px] top-[8.33px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
-                                    <div class="w-2.5 h-1.5 absolute left-[5px] top-[10.42px] outline outline-[1.67px] outline-offset-[-0.83px] outline-blue-500"></div>
-                                </div>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4493 3.07772C12.1667 2.93543 11.8333 2.93535 11.5505 3.07751L0.550856 8.60778C-0.182453 8.97646 -0.18386 10.0228 0.548455 10.3934L5 12.6465V17C5 19.2091 6.79086 21 9 21H15C17.2091 21 19 19.2091 19 17V12.6352L22 11.124V14C22 14.5523 22.4477 15 23 15C23.5523 15 24 14.5523 24 14V9.62991C24 9.20695 23.8394 8.81077 23.4424 8.61095C19.7781 6.76658 16.1137 4.92212 12.4493 3.07772ZM11.9995 5.09035L3.22034 9.5042L11.9742 13.9349L20.7693 9.50453L11.9995 5.09035ZM7 17V13.6588L11.5216 15.9474C11.8049 16.0908 12.1394 16.0911 12.423 15.9482L17 13.6427V17C17 18.1046 16.1046 19 15 19H9C7.89543 19 7 18.1046 7 17Z" fill="#4299e1"></path> </g></svg>
                             </div>
+                        </div>
                         <h2 class="text-2xl font-semibold font-inter leading-normal">Our Vision</h2>
                     </div>        
-                        <div class="mt-5">
-                            <p class="text-neutral-50 text-base text-justify font-normal font-inter leading-normal">
-                                To encourage every member to actively participate in at least one competitive programming contest or other programming-related competition.
-                            </p>
-                        </div>
+                    <div class="mt-5">
+                        <p class="text-neutral-50 text-base text-justify font-normal font-inter leading-normal">
+                            To encourage every member to actively participate in at least one competitive programming contest or other programming-related competition.
+                        </p>
                     </div>
                 </div>
+            </div>
                 <!-- Logo Section -->
                 <div class="mt-12">
                     <div class="text-3xl text-left font-inter font-bold">

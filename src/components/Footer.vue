@@ -19,9 +19,9 @@
           <div>
             <h2 class="mb-6 text-sm font-semibold uppercase">Quick Links</h2>
             <ul class="text-gray-400 font-medium space-y-2">
-              <li><a href="#" class="hover:underline">Committee</a></li>
-              <li><a href="#" class="hover:underline">Join the Club</a></li>
-              <li><a href="#" class="hover:underline">Contact</a></li>
+              <li><a href="/Committee" class="hover:underline">Committee</a></li>
+              <li><a href="/Join" class="hover:underline">Join the Club</a></li>
+              <li><a href="/Contact" class="hover:underline">Contact</a></li>
             </ul>
           </div>
 
